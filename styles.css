@@ -19,3 +19,34 @@
     box-sizing: border-box;
     font-family: "Rubik-Regular";
 }
+
+.container {
+    text-align: center;
+    min-width: 1440px;
+    margin: 0 auto;
+}
+
+.button {
+    height: 56px;
+    color: #fff;
+    font-size: 16px;
+    background-color: #12569B;
+    border-radius: 28px;
+    border-color: transparent;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #12579bda;
+
+}
+
+.button:active {
+    cursor: pointer;
+    background-color: #12579bcf;
+    
+}
+
+.button-header {
+    width: 196px;
+}
