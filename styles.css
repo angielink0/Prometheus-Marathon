@@ -50,3 +50,42 @@
 .button-header {
     width: 196px;
 }
+
+.header {
+    height: 570px;
+    display: flex;
+    background-color: #E3E6ED;
+    padding: 0 94px;
+    margin: 0 auto;
+}
+
+.header-container {
+    display: flex;
+    width: 1075px;
+    margin: 0 auto;
+}
+
+.header-content {
+    width: 445px;
+    text-align: left;
+    margin-top: 44px;
+}
+
+.header-icon {
+    display: block;
+    margin-bottom: 100px;
+}
+
+.header-content h1 {
+    width: 280px;
+    font-family: "Rubik-Bold";
+    font-size: 80px;
+    color: #212033;
+    line-height: 88%;
+    letter-spacing: 14px;
+    margin-bottom: 34px;
+}
+
+.header-dron {
+    height: 466px;
+}
