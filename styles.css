@@ -89,3 +89,53 @@
 .header-dron {
     height: 466px;
 }
+
+.main {
+    position: relative;
+    height: 580px;
+    padding: 63px 94px 0 94px;
+    margin: 0 auto;
+
+}
+
+.main h2 {
+    margin-bottom: 25px;
+    font-size: 30px;
+    color: #212033;
+    letter-spacing: 0.5px;
+}
+
+.main p {
+    display: block;
+    width: 710px;
+    font-size: 20px;
+    color: #212033;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-images {
+    display: flex;
+    justify-content: center;
+}
+
+.main-images img {
+    height: 203px;
+    width: 345px;
+    border-radius: 12px;
+}
+
+.main-images img:not(:last-of-type) {
+    margin-right: 20px;
+}
+
+.main-images::before {
+    position: absolute;
+    content: "";
+    background-color: #E3E6ED;
+    height: 99px;
+    width: 90%;
+    left: 0;
+    bottom: 138px;
+    z-index: -1;
+}
