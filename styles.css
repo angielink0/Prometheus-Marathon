@@ -79,7 +79,7 @@
     font-size: 80px;
     color: #212033;
     line-height: 88%;
-    letter-spacing: 14px;
+    letter-spacing: 0.14em;
     margin-bottom: 34px;
 }
 
@@ -186,8 +186,20 @@
 
 input {
     font-size: 18px;
-    padding-left: 24px;
+    text-indent: 20px;
+    padding-left: 0;
 }
+
+input::placeholder {
+    text-align: center;
+    text-indent: 0;
+    color: #CACACA;
+}
+  
+  input[name="cardOwner"]::placeholder {
+    text-align: left;
+    text-indent: 20px;
+  }
 
 input[type=radio] {
     position: absolute;
