@@ -42,10 +42,10 @@
                 <img src="./images/dron_3.jpg" alt="dron3">
             </div>
         </section>
-        <section>
+        <section class="pay">
             <h2>Зробити благодійний внесок</h2>
-            <form action="/">
-                <div>
+            <form class="pay-form" action="/">
+                <div class="pay-fonds">
                     <p>Оберіть фонд</p>
                     <label for="">
                         <input type="radio" name="foundation" value="SerhiiPrytulaFoundation">
@@ -60,8 +60,8 @@
                         <span>Рахунок НБУ</span>
                     </label>
                 </div>
-                <div>
-                    <div>
+                <div class="pay-card">
+                    <div class="pay-first-card-col">
                         <label for="">
                             Введіть номер картки*
                             <input type="text" required name="cardNumber" placeholder="XXXX XXXX XXXX XXXX">
@@ -77,12 +77,12 @@
                             </label>
                         </div>
                     </div>
-                    <div>
+                    <div class="pay-first-card-col">
                         <label for="">
                             Введіть імʼя на картці
                             <input type="text" name="cardOwner" placeholder="Name Surname">
                         </label>
-                        <button type="submit">Підтвердити внесок</button>
+                        <button class="button button-confirm" type="submit">Підтвердити внесок</button>
                     </div>
                 </div>
             </form>
