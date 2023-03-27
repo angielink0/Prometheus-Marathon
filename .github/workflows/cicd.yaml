@@ -1,0 +1,20 @@
+# job build imge push to ghcr.io
+name: Build and Push Docker Image
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches: -main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checout@v2
+        with:
+          context: .
+          file: ./Dovkerfile
+          push: true
+          tags: ghcr.io/angielink0/Prometheus-Marathon:latest
+# Path: .github/workflows/cicd.yaml
