@@ -35,4 +35,4 @@ jobs:
           push: true
           tags: ghcr.io/angielink0/prometheus-marathon:latest # змінено на `tags` замість `tag`
 # Path: .github/workflows/cicd.yaml
-#update
+#update token
