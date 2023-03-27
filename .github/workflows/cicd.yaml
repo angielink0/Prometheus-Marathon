@@ -32,5 +32,5 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tag: ghcr.io/angielink0/Prometheus-Marathon:latest
+          tag: ghcr.io/angielink0/prometheus-marathon:latest
 # Path: .github/workflows/cicd.yaml
