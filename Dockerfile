@@ -1,8 +1,6 @@
 # docker image base on caddy image
 # я побудую контейнер на базі базового імеджа з кадді
 # кадді - це вебсервер, написаний на Go language
-
-
 FROM caddy:2.0.0-alpine
 
 
@@ -13,10 +11,7 @@ WORKDIR /usr/share/caddy
 
 # copy all files
 # скопіюю всі файли з поточного каталогу в контейнер
-
-
 COPY . .
-
 
 # exspose port
 # система, тобто вебсервер буде слухати 80 порт
